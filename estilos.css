@@ -1,0 +1,483 @@
+*{
+    padding: 0;
+    margin:0 ;
+
+}
+ body{
+     background-color: rgb(109, 109, 113);
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .barraSuperior{
+     padding: 1em 2em;
+ }
+ .primeraFila{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-items: center;
+     justify-content:space-between;
+     margin: 0 0 2em 0;
+ }
+ .redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+ }
+ .icono{
+    background-color: rgb(141, 147, 158);
+    box-shadow: 0.2em 0.2em 5px rgb(207, 208, 210);
+    border-radius: 3px;
+    margin: .7em .3em;
+    padding: .6em .7em;
+    height: 1em;
+}
+.icono:hover{
+    -webkit-box-shadow:0px 0px 9px 10px rgba(237,250,246,0.54);
+    -moz-box-shadow: 0px 0px 9px 10px rgba(237,250,246,0.54);
+    box-shadow: 0px 0px 9px 10px rgba(237,250,246,0.54);
+}
+
+
+.whatsapp{
+    margin-left: 1.5em;
+}
+
+.nombre{
+    color: rgb(54, 17, 17);
+    text-shadow: 0.2em 0.2em 5px rgb(207, 208, 210);
+    font-size: 2em;
+    position: absolute;
+    top: 40px;
+    left: 43%;
+}
+
+ #celular{
+    width: 10em;
+     color: aliceblue;
+     font-weight:600;
+     font-size: 1em;
+     margin-left: 0.5em;
+
+ }
+ #reservas{
+     color: aliceblue;
+ }
+ #reservas{
+     text-decoration: none;
+     font-weight: 600;
+ }
+.menu{
+    display: flex;
+   
+}
+.menu1{
+    display: flex;
+   
+}
+
+ #desplegar{
+     margin: auto;
+     position: relative;
+     top: -1em;
+    
+ }
+ #contraer{
+    margin: auto;
+    position: relative;
+    top: -1em;
+   display:none;
+ }
+
+ 
+ #abrir{
+    margin: auto;
+    position: relative;
+    top: -1em;
+   display: none;
+  
+}
+#cerrar{
+    margin: auto;
+    position: relative;
+    top: -1em;
+   display: none;
+   
+
+}
+
+
+ #contraer:hover, #desplegar:hover{
+    -webkit-box-shadow:0px 0px 9px 10px rgba(237,250,246,0.54);
+    -moz-box-shadow: 0px 0px 9px 10px rgba(237,250,246,0.54);
+    box-shadow: 0px 0px 9px 10px rgba(237,250,246,0.54);
+
+ }
+ .opciones{
+
+     font-weight: 100;
+     text-decoration: none;
+     color: rgb(240, 244, 236);
+     text-shadow: 0.1em 0.1em 4px rgb(173, 244, 9);
+     transition: .2s;
+       
+ }
+ .opme{
+    text-decoration: none;
+ }
+
+ .opciones:hover{
+     color: black;
+     background-color: rgba(235, 242, 240, 0.54);
+    -webkit-box-shadow:0px 0px 9px 10px rgba(237,250,246,0.54);
+    -moz-box-shadow: 0px 0px 9px 10px rgba(237,250,246,0.54);
+    box-shadow: 0px 0px 9px 10px rgba(237,250,246,0.54);
+    border-radius: 10em;
+    transition: .2s;
+
+ }
+ .opcionesh:hover{
+    color: black;
+    background-color: rgba(235, 242, 240, 0.54);
+   -webkit-box-shadow:0px 0px 9px 5px rgba(237,250,246,0.54);
+   -moz-box-shadow: 0px 0px 9px 5px rgba(237,250,246,0.54);
+   box-shadow: 0px 0px 9px 5px rgba(237,250,246,0.54);
+   border-radius: 10em;
+   transition: .2s;
+
+}
+
+ #desplegable{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     max-width: 800px;
+     margin: auto;
+     position: relative;
+     top:-8em;
+     opacity: 0;
+     transition: all 1s;
+ }
+
+ #menuH{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 80%;
+    width: 8em;
+    padding: 0.5em;
+    margin-top: -4.5em;
+    transition: all 1s;
+    background-color: rgba(240, 240, 247, 0.08); 
+    opacity: 0;
+    position: relative;
+   
+}
+
+ .cuerpo{
+     background-image: url("foto1.png");
+    
+ }
+ .cuerpo1{
+    background-image: url("foto1.png");
+   
+}
+ .slogan{
+    font-size: 3.5em;
+    color: rgb(209, 230, 248);
+    text-align: center;
+    text-shadow: 0.10em 0.10em 3px rgb(139, 173, 237);
+    margin-top: 0.1em;
+     
+ }
+ 
+
+ .blanco{
+    text-shadow: 0.10em 0.10em 3px rgb(139, 173, 237);
+ }
+
+ #desplegable1{
+    color: rgb(240, 244, 236);
+    text-shadow: 0.1em 0.1em 4px rgb(173, 244, 9);
+    transition: .2s;
+     width: 15em;
+     margin: auto;
+     text-align: center;
+     position: relative;
+     top:10em
+     
+   
+ }
+
+ .opciones1{
+    font-size: 1.5em;
+}
+.opciones1:hover{
+        color: black;
+        background-color: rgba(235, 242, 240, 0.54);
+       -webkit-box-shadow:0px 0px 9px 10px rgba(237,250,246,0.54);
+       -moz-box-shadow: 0px 0px 9px 10px rgba(237,250,246,0.54);
+       box-shadow: 0px 0px 9px 10px rgba(237,250,246,0.54);
+       border-radius: 10em;
+       transition: .2s;
+   
+}
+
+ #platos{
+   display: grid;
+   grid-template-columns: 3fr 2fr;
+   width: 70em;
+   max-width: 38em;
+   margin: 1em 26.2em ;
+  
+   
+    
+ }
+ #plato{
+    width: 28.3em;
+    border-radius: 20px 0  0  20px;
+    position: relative;
+    transition: 0.3s;
+  
+  
+}
+#postre{
+    width: 15em;
+     border-radius: 0 20px 0 0;
+    position: relative;
+    transition: 0.3s;
+}
+  
+#copa{
+    width: 15em;
+    height: 8.7em;
+    border-radius: 0 0 20px  0;
+    position: relative;
+    transition: 0.3s;
+  
+   
+}
+
+.espacio{
+padding: 8em;
+   
+}
+.footer{
+     background-color: rgb(109, 109, 113);
+     margin-top: 0.5em;
+     padding: 1em;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ .footer1{
+    background-color: rgb(109, 109, 113);
+    margin-top: 20.5em;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.textofooter{
+    font-weight: 600;
+    color: aliceblue;
+    margin: 0.2em 0;
+}
+.footerizq{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+.footerder{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+     margin: auto 0;
+}
+
+/*------- carrousel----- El CARROUSEL NO FUNCIONA NO SE POR QUE----*/
+
+.container-slider{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+   /* overflow: hidden;   NOTA : solo me oculta una foto */
+    position: relative;
+}
+.slider{
+    display: flex;
+    width: 100%;
+    height: 170px;
+    margin-left: 20%;
+    
+   
+}
+
+.slider__section{
+    width: 100%;
+    
+
+}
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__btn{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: rgb(207, 208, 210, 0.7);
+    margin-top: -7.5em;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn:hover{
+    background: rgba(250, 240, 240 );
+
+}
+
+.slider__btn-right{
+    left: 25.5em;
+    top: 11em;
+}
+.slider__btn-left{
+    right: 25.5em;
+    top: 11em
+}
+
+
+
+/*------- responsibilidad  break point---------*/
+
+@media only screen and (max-width:1200px){
+body{
+    font-size:12px;
+}
+
+.platos{
+    width: 3em;
+}
+
+.slogan{
+    font-size:3em ;
+}
+.nombre{
+    font-size: 2em;
+}
+
+
+}
+
+@media only screen and (max-width:900px){
+.primeraFila{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nombre{
+    left: 11.5em;
+}
+.opciones{
+   
+   font-size: 1em;
+   margin: 0.5em;
+
+}
+
+#platos{
+    width: 10em;
+    margin-left: 23em;
+}
+#postre, #copa{
+width: 8em;
+
+}
+#copa{
+    height: 5.5em;
+}
+#plato{
+width: 17em;
+}
+#desplegar{
+    opacity: 1;
+    display: block;
+  
+ }
+ #abrir #cerrar{
+    opacity: 0; 
+    display: none;
+ }
+
+}
+@media only screen and (max-width:690px){
+   
+    #desplegar{
+        opacity: 1;
+        display: block;
+     
+    }
+
+    #abrir, #cerrar{
+        opacity: 0;
+        display: none;
+    }
+  
+
+}
+    
+@media only screen and (max-width:680px){
+   
+    #desplegar, #contraer{
+        opacity: 0;
+        display: none;
+     
+    }
+    #abrir, #cerrar{
+        opacity: 0;
+        display: none;
+    }
+    
+    
+    }
+
+
+@media only screen and (max-width:660px){
+.opciones{
+    font-size: 1em;
+          
+}
+.opciones1{
+   font-size: 1em;
+
+}     
+#platos{
+   margin-left: 6em;
+        
+}
+#desplegar, #contraer{
+    opacity: 0;
+    display: none;
+ 
+}
+.menu{
+    display: none;
+}
+#abrir{
+    opacity: 1;
+    display: block;
+}
+
+
+}
